@@ -12,9 +12,10 @@ public class AdiosJava {
 
         int resta = numero1 - numero2;
         System.out.println("La resta es: " + resta);
+        
+        Persona persona1 = new Persona("Ulises",17,"Calle juerez #25","2211234567");
+
+        System.out.println(persona1);
     }
 
-    public static int resta(int numero1, int numero2) {
-        return numero1 - numero2;
-    }
 }
