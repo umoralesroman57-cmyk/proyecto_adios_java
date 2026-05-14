@@ -9,5 +9,12 @@ public class AdiosJava {
         numero2 = scanner.nextInt();
         int resultado = numero1 + numero2;
         System.out.println("La suma es: " + resultado);
+
+        int resta = numero1 - numero2;
+        System.out.println("La resta es: " + resta);
+    }
+
+    public static int resta(int numero1, int numero2) {
+        return numero1 - numero2;
     }
 }
